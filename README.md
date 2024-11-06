@@ -10,7 +10,7 @@ Our app will include:
 	•	A tool that uses data from a web API you choose
 	•	A feature using a large language model (like ChatGPT) to further analyze the API data
 
-
+All main coding content is located in the folder WebDevelopmentLab03.
 
 
 # Step 1: Creating A Portfolio
