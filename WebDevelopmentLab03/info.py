@@ -2,8 +2,8 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Images/profile.jpeg"
-about_me = "I'm SpongeBobe Square Pants. I work at the Krusty Krab and I make fantastic Krabby Patties. "
+profile_picture = "Images/Cameron_Suit.jpeg"
+about_me = "My name is Cameron Pearson. I am currently a student at the amazing Georgia Tech, located in Atlanta, Georgia. "
 
 
 #CHANGE BELOW (OPTIONAL)
@@ -12,28 +12,28 @@ github_image_url = "https://cdn-icons-png.flaticon.com/256/25/25231.png"
 email_image_url = "https://logowik.com/content/uploads/images/513_email.jpg"
 
 #CHANGE BELOW
-my_linkedin_url = "https://www.linkedin.com/in/spongebob-squarepants-44b857281/"
-my_github_url = "https://github.com/spongebob-squarepants"
-my_email_address = "spongebob@gmail.com"
+my_linkedin_url = "www.linkedin.com/in/cameron-campearson"
+my_github_url = "https://github.com/CPearson60"
+my_email_address = "CameronLPearson2005@gmail.com"
 
 
 education_data ={
-    'Degree': 'Bachelor of Science in Computer Science',
+    'Degree': 'Bachelor of Science in Electrical Engineering',
     'Institution': 'Georgia Institute of Technology',
     'Location': 'Atlanta, GA',
-    'Graduation Date': 'Never',
-    'GPA': '4.0'
+    'Graduation Date': '2028',
+    'GPA': 'N/A'
 }
 course_data = {
-    "code":["CS 1301", "CS 1331", "MATH 1554", "CS 2050"], 
-    "names":["Intro to CS", "Intro to OOP", "Linear Algebra", "Discrete Mathematics"], 
-    "semester_taken":["2nd", "3rd", "2nd", "2nd"],
-    "skills":["Python is not my favorite snake anymore", "OOP(S!) (Java Edition)", "Basically row reduction", "If only my grade was discrete too..."],
+    "code":["CS 1301", "Math 1551", "Chem 1310"], 
+    "names":["Intro to CS", "Differntial Calculus", "Principles of Gen Chem for Engineers"], 
+    "semester_taken":["1st", "1st", "1st"],
+    "skills":["Python, Html, Swift, Working In Teams, Github"],
     }
 experience_data = {
-    "Cook at Krusty Krab": (["- Worked on designing the Krabby Patty Recipe",
-                                                                          "- Increased Company Revenue by 200 dollars", "- Made Mr. Krabs Proud"],"Images/cook.jpg"),
-    "Cleaner at Krusty Krab":(["- Made the floor almost reflective",
+    "Summer Intern for STEM@Gtri": (["- Worked on designing and creating an IOT Smart Garden",
+                                                                          "- Created Electrical Wiring Schematic ", "- Helped Install Raspi, Mositure Sensors and Electrical Wiring ", "-Intergrated Slack's Api with our Garden Bed To Create A Messaging System Between The Graden and Slack."],"Images/GardenBed.jpg"),
+    "Intern For 402nd SWEG - Robins AFB":(["- Made the floor almost reflective",
                                                            "- Increased customer visits by three folds by making restaurant clean"],"Images/cleaner.jpg"),
     "Jelly Fish Catcher":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg")
 
