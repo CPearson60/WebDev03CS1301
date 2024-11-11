@@ -33,14 +33,14 @@ course_data = {
 experience_data = {
     "Summer Intern for STEM@Gtri": (["- Worked on designing and creating an IOT Smart Garden",
                                                                           "- Created Electrical Wiring Schematic ", "- Helped Install Raspi, Mositure Sensors and Electrical Wiring ", "-Intergrated Slack's Api with our Garden Bed To Create A Messaging System Between The Graden and Slack."],"Images/GardenBed.jpg"),
-    "Intern For 402nd SWEG - Robins AFB":(["- Made the floor almost reflective",
-                                                           "- Increased customer visits by three folds by making restaurant clean"],"Images/cleaner.jpg"),
-    "Jelly Fish Catcher":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg")
+    "Intern For 402nd SWEG - Robins AFB":(["- Created numerous programs in the python language",
+                                                           "- ],"Images/cleaner.jpg"),
+
 
 }
 
 projects_data = {
-    "Krabby Patty Recipe": "Created the famous Recipe and tailored it from scratch",
+    "Study Buddy (Swift App)": "In the process of creating an app that will serve as a study helper to students, mainly GT Students.",
 }
 
 programming_data = {
@@ -52,25 +52,23 @@ programming_data = {
 #CHANGE BELOW (OPTIONAL)
 programming_icons = {
     "Python": "🐍",
-    "Java": "☕",
-    "C": "🔍",
+    "Swift": "🐦‍🔥",
+    "HTML: "🕸️",
 }
-spoken_icons = {"French": "🇫🇷",
-    "English": "🇬🇧",
-    "Spanish":"🇪🇸"
+spoken_icons = {"English": "🇺🇸"
 }
 
 #CHANGE BELOW
 spoken_data = {
     "English": "Fluent",
-    "French": "Fluent",
-    "Spanish": "Fluent",
 }
 leadership_data = {
-    "Driver at Mrs Puff's School": (["- Elected Worst Student of the Century"],"Images/puff.jpg"),
+    "GT-BCIT Mentor": (["- I mentor a highschool who plans to seek out higher education."],"Images/puff.jpg"),
 
 }
 activity_data={
-    "SpongeBob and Patrick Friendship Club": ["- Conviced Squidwards to have fun", 
-            "- Sat under Patrick's rock"]
+    "LDR": ["- Attend Meetings", 
+            "- Participate in some events"]
+    "Working Out": ["- Attend the gym atleast 3 times a week",
+                    "- Try to become healthier through physical activity"]
 }
