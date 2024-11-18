@@ -2,7 +2,7 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Images/Cameron_Suit.jpeg"
+profile_picture = "Images/Cameron_Casual.jpg"
 about_me = "My name is Cameron Pearson. I am currently a student at the amazing Georgia Tech, located in Atlanta, Georgia. "
 
 
@@ -33,8 +33,7 @@ course_data = {
 experience_data = {
     "Summer Intern for STEM@Gtri": (["- Worked on designing and creating an IOT Smart Garden",
                                                                           "- Created Electrical Wiring Schematic ", "- Helped Install Raspi, Mositure Sensors and Electrical Wiring ", "-Intergrated Slack's Api with our Garden Bed To Create A Messaging System Between The Graden and Slack."],"Images/GardenBed.jpg"),
-    "Intern For 402nd SWEG - Robins AFB":(["- Created numerous programs in the python language",
-                                                           "- ],"Images/cleaner.jpg"),
+    "Intern For 402nd SWEG - Robins AFB":(["- Created numerous programs in the python language", "- Worked apart of a team, to create and present a final product" ],"Images/Sweg_Cameron.jpg"),
 
 
 }
@@ -63,7 +62,7 @@ spoken_data = {
     "English": "Fluent",
 }
 leadership_data = {
-    "GT-BCIT Mentor": (["- I mentor a highschool who plans to seek out higher education."],"Images/puff.jpg"),
+    "GT-BCIT Mentor": (["- I mentor a highschool who plans to seek out higher education."],"Gatech_Logo"),
 
 }
 activity_data={
@@ -71,4 +70,8 @@ activity_data={
             "- Participate in some events"]
     "Working Out": ["- Attend the gym atleast 3 times a week",
                     "- Try to become healthier through physical activity"]
+v   "Playing Piano": ["- I play piano in my free time",
+                      "- I play more of an r&b/neo-soul style "]
+    "Photography": ["- Im trying to get into photography at the moment",
+    				" - On the weekends me and my friend will go out an take random pictures of things"]
 }
