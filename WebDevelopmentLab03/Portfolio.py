@@ -77,4 +77,32 @@ def skills_section(programming_data, spoken_data):
     st.subheader("Programming Languages")
     for skill, percentage in programming_data.items():
         st.write(f"{skill}{info.programming_icons.get(skill,")}")
-        
+        st.progress(percentage)
+    st.subheader("Spoken Languages")
+    for spoken, proficiency in spoken_data.items():
+    	st.write(f"{spoken}{info.spoken_incons.get(spoken,")}: {proficiency}")
+    
+    st.write("---")
+skills_section(info.programming_data, info.spoken_data)
+
+#Activities
+
+def activities_section(leadership_data, activity_data):
+	st.header("Activities")
+    tab1, tab2 = st.tabs(["Leadership","Community Service"])
+    with tab1:
+    	st.subheader("Leadership")
+        for title, (details, image) in leadership_data.items():
+        	expander = st.expander(f"{title}")
+            expander.image(image, width=250)
+            for bullet in details:
+            	expander.write(bullet)
+    with tab2:
+        st.subheader("Community Service")
+        for title, (details, image) in activity_data.items():
+        	expander = st.expander(f"{title}")
+            for bullet in details:
+            	expander.write(bullet)
+    
+                
+activities_section(info.leadership_data, info.activity_data)
